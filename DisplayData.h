@@ -85,7 +85,7 @@ if(isspace(c)){
  return shiftRegisterBytes;
 }
 //****************************
-// alphabet 14 segments right hand digit only row 2 
+// alphabet 14 segments right-hand digit only row 2 
 //from grid 16 to 19
 //***************************************
 byte* Alphabet_14Segments_R(char c){
@@ -229,8 +229,8 @@ byte* Number_14SegmentsDigit_1L(uint8_t number){
 }
 //***************************************
 // Numbers data for 14 segments 9 digits
-// Note it work only from grid 16 to grid 20
-// Note for the righ hand digit only from grid 16 to 20
+// Note it works only from grid 16 to grid 20
+// Note for the right hand digit only from grid 16 to 20
 //****************************************************
 byte* Number_14SegmentsDigit_2R(uint8_t number){
  
@@ -303,7 +303,7 @@ byte* Number_14SegmentsDigit_2R(uint8_t number){
 }
 //*****************************************
 // digits data for 7 segments one digit
-// note work only in right hand digit in gird 15 only
+// note work only in right-hand digit in gird 15 only
 //****************************************************
 byte* Number_7SegmentsGird_15R(uint8_t number){
 
@@ -374,7 +374,7 @@ byte* Number_7SegmentsGird_15R(uint8_t number){
 }
 //*****************************************
 // digits data for 7 segments one digit
-// note work only in left hand digit in gird 15 only
+// note work only in left-hand digit in gird 15 only
 //****************************************************
 byte* Number_7SegmentsGird_15L(uint8_t number){
 
@@ -847,8 +847,8 @@ const byte FontCharForDotMatrixData[][4]={
 11,160,00,00,//   ~
 };
 //********************************************
-// the shift register is 32 bit, but the display is 5x7 DOT matrix = 35 bit
-// so I did use 3 more bit from the second shift register 
+//The shift register is 32-bit, but the display is 5x7 DOT matrix = 35-bit
+//So I did use 3 more bits from the second shift register 
 //****************************************************
 const byte FontCharForDotMatrix35[][1]={
 0,//   space
